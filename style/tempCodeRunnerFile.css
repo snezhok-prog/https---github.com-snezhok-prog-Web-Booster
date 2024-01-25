@@ -1,0 +1,23 @@
+.slider {
+    position: relative;
+    width: 200px;
+    height: 10px;
+  }
+   
+  .slider-track {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    transform: translateY(-50%);
+  }
+   
+  .slider-line {
+    stroke: #000;
+    stroke-width: 2px;
+  }
+   
+  .slider-thumb {
+    fill: #000;
+  }
